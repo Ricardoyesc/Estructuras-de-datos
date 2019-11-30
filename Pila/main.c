@@ -13,7 +13,7 @@ int main(){
     switch (opc) {
       case 1:
 
-        printf("Dame el dato pls\n");
+        printf("Teclea el dato\n");
         scanf("%d",&dato);
         tope=push(dato,tope);
         break;

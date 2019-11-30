@@ -27,7 +27,7 @@ struct nodo* pop(struct nodo *tope){
   }else{
     struct nodo* aux=tope;
     tope=tope->siguiente;
-    printf("Se va el dato %d\n",tope->dato );
+    printf("Pop al dato %d\n",tope->dato );
     free(aux);
   }
   return tope;

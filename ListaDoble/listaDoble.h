@@ -4,17 +4,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-struct listaCircular
-{
-  int datos;
-  struct listaCircular *siguiente;
+struct lista_doble {
+  int dato;
+  struct lista_doble*siguiente;
+  struct lista_doble*anterior;
 };
 
-
-void insertar (struct listaCircular **, int );
-
-void eliminar (struct listaCircular **, int);
-
-void mostrar (struct listaCircular *);
+void insertar();
+void inicializar();
+void muestra();
+int eliminar();
+int reemplazar();
 
 #endif

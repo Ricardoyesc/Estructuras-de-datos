@@ -1,5 +1,6 @@
 #include"listaDoble.h"
 
+extern struct lista_doble *cabeza;
 
 int main(){
   int opc=0;

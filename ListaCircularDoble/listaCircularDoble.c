@@ -1,7 +1,5 @@
 #include"listaCircularDoble.h"
 
-void MostrarLista(struct Nodo *nodo);
-
 struct Nodo* AgregarNuevoNodo(struct Nodo *nodo, int dato, int opcion){
 	if(nodo == NULL){
 		nodo = (struct Nodo*) malloc(sizeof(struct Nodo));

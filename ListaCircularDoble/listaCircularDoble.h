@@ -22,4 +22,6 @@ struct Nodo* EliminarNodoAlInicio(struct Nodo *nodo);
 
 struct Nodo* EliminarNodoAlFinal(struct Nodo *nodo);
 
+void MostrarLista(struct Nodo *nodo);
+
 #endif

@@ -1,6 +1,6 @@
 #include "lista.h"
 
-extern struct lista_ligada *cabeza;
+struct lista_ligada *cabeza=NULL;
 
 void insertar(){
   int dato=0;

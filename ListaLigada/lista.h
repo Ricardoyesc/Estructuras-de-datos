@@ -9,7 +9,6 @@ struct lista_ligada{
 	struct lista_ligada *siguiente;
 };
 
-struct lista_ligada *cabeza=NULL;
 void insertar();
 void inicializar();
 int mostrar();

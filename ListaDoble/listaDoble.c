@@ -1,5 +1,7 @@
 #include"listaDoble.h"
 
+struct lista_doble *cabeza = NULL;
+
 void insertar(){
   int dato=0;
   printf("Ingresa el valor a insertar\n");

@@ -1,6 +1,6 @@
 #include "lista.h"
 
-extern struct lista;
+extern struct lista_ligada *cabeza;
 
 int main(){
   int opc=0;
