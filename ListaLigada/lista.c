@@ -71,7 +71,7 @@ int buscar(){
   struct lista_ligada *aux=cabeza;
   do{
     if(aux->dato==dato){
-      printf("El dato %d, esta en la direccion %p\n",aux->dato,*aux);
+      printf("El dato %d, esta en la direccion %p\n",aux->dato, aux);
       return 0;
     }
     aux=aux->siguiente;
